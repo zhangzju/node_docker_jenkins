@@ -1,0 +1,24 @@
+{
+  "name": "node_docker_jenkins",
+  "version": "1.0.0",
+  "description": "A repo for trying build nodejs project with docker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangzju/node_docker_jenkins.git"
+  },
+  "author": "zhangzju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangzju/node_docker_jenkins/issues"
+  },
+  "homepage": "https://github.com/zhangzju/node_docker_jenkins#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "pm2": "^2.4.2",
+    "redis": "^2.7.0"
+  }
+}
